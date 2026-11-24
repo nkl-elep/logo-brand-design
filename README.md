@@ -6,15 +6,27 @@ Skill tiếng Việt giúp chủ thương hiệu và designer tạo logo, xây b
 
 Múi đã có một bài đăng ra mắt soda quýt. Bạn có thể giao bộ nhận diện đó cho một chat mới để làm story mời khách ghé quầy thử vị.
 
-Trong Codex, skill hiển thị là **Logo & Brand Design**. Chạy lệnh sau trong thư mục dự án để cài, rồi gọi `$logo-brand-design`.
+Chọn công cụ bạn đang dùng. Với Claude Code hoặc Codex, mở terminal trong thư mục dự án rồi chạy lệnh tương ứng (cần Node.js và npm).
+
+**Claude Code** — Cài cho dự án hiện tại. Sau đó mở Claude Code trong cùng thư mục, gõ `/logo-brand-design` và dán lời giao việc bên dưới.
+
+```sh
+npx --yes skills add https://github.com/nkl-elep/logo-brand-design --skill logo-brand-design --agent claude-code --copy -y
+```
+
+**Codex** — Cài cho dự án hiện tại, rồi gọi `$logo-brand-design` cùng lời giao việc.
 
 ```sh
 npx --yes skills add https://github.com/nkl-elep/logo-brand-design --skill logo-brand-design --agent codex --copy -y
 ```
 
-1. [Tải gói bàn giao Múi v1.2.0](https://github.com/nkl-elep/logo-brand-design/releases/download/v1.2.0/demo-mui.zip) và giải nén.
-2. Mở thư mục vừa giải nén trong một chat AI mới có thể đọc tệp và xuất ảnh. Trong gói có brief, logo gốc, font, thông số màu và bài đăng mẫu.
-3. Dán nguyên lời giao việc đã dùng để tạo story “Ghé thử vị”.
+**Claude trên web (claude.ai)** — [Tải ZIP của skill cho Claude](https://github.com/nkl-elep/logo-brand-design/releases/download/v1.2.1/logo-brand-design-claude.zip), mở **Customize → Skills → + → Create skill → Upload a skill**, tải nguyên file ZIP lên rồi bật `logo-brand-design`. [Hướng dẫn của Anthropic](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+
+**Thử với cùng một brief**
+
+1. [Tải gói bàn giao Múi v1.2.0](https://github.com/nkl-elep/logo-brand-design/releases/download/v1.2.0/demo-mui.zip). Gói này chứa logo gốc, font, thông số màu và bài đăng mẫu.
+2. Trong Claude Code hoặc Codex, giải nén gói Múi vào dự án vừa cài skill và mở chat mới tại đó. Trên claude.ai, mở chat mới và đính kèm `demo-mui.zip` vào tin nhắn.
+3. Gọi skill bằng cú pháp của công cụ rồi dán lời giao việc sau. Trên claude.ai, chỉ cần viết “Dùng skill logo-brand-design” trước brief.
 
 > Dùng bộ bàn giao Múi làm story 1080 × 1920 cho quầy thử soda quýt. CTA là “Ghé thử vị”. Lấy nguyên logo từ master, đối chiếu màu và font với JSON, giữ nhịp chữ ngắn của bài đăng mẫu. Giao SVG sửa được và PNG. Chừa chỗ cho địa điểm vì brief chưa có.
 
@@ -32,7 +44,7 @@ Bạn phải nhắc lại điều gì mà gói bàn giao lẽ ra nên nói rõ? 
 
 ![Ba thương hiệu mẫu: Sành với gốm men nâu, Múi với soda quýt và Tần với radio điện tử](docs/ba-nganh.jpg)
 
-**[Tải Logo & Brand Design cho Codex (ZIP)](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/logo-brand-design.zip)** · **[Đọc bản dùng với AI khác](Quy-trinh-logo-brand-cho-AI.md)** · **[Mở riêng ảnh ba thương hiệu](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/docs/ba-nganh.jpg)**
+**[Tải ZIP cài thủ công cho Claude Code và Codex](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/logo-brand-design.zip)** · **[Đọc bản dùng với AI khác](Quy-trinh-logo-brand-cho-AI.md)** · **[Mở riêng ảnh ba thương hiệu](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/docs/ba-nganh.jpg)**
 
 Mỗi **cẩm nang thương hiệu** dưới đây có ba trang để xem trực tiếp trên GitHub, kèm phần mô tả bằng chữ. Gói ZIP dành cho lúc bạn muốn lấy file gốc để chỉnh tiếp.
 
@@ -79,7 +91,16 @@ Khi làm cho thương hiệu của bạn, điền [mẫu phiếu bàn giao cho A
 
 ## Cài và sử dụng
 
-**Trong Codex.** Giải nén bản đóng gói ở trên. Chép thư mục `logo-brand-design` có file `SKILL.md` vào `~/.codex/skills/` (Windows là `%USERPROFILE%\.codex\skills\`), hoặc thư mục skills của môi trường bạn dùng. Mở một phiên mới và gọi `$logo-brand-design` cùng brief.
+**Cài thủ công cho Claude Code hoặc Codex.** Giải nén [gói skill](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/logo-brand-design.zip) và chép cả thư mục `logo-brand-design` có `SKILL.md` vào vị trí tương ứng.
+
+| Công cụ | Chỉ dùng trong dự án | Dùng cho các dự án trên máy | Cách gọi trong chat mới |
+|---|---|---|---|
+| Claude Code | `.claude/skills/` trong dự án | `~/.claude/skills/` | `/logo-brand-design` kèm brief |
+| Codex | `.agents/skills/` trong dự án | `~/.codex/skills/` | `$logo-brand-design` kèm brief |
+
+Trên Windows, `~` là thư mục người dùng (`%USERPROFILE%`). Với Claude Code, bạn có thể kiểm tra file `.claude/skills/logo-brand-design/SKILL.md` sau khi cài cho dự án. [Tài liệu Claude Code](https://code.claude.com/docs/en/skills)
+
+**Nếu claude.ai chưa hiện mục Skills.** Mở **Settings → Capabilities** và bật tính năng tạo tệp (**Create and edit files** hoặc **Code execution and file creation**). Nếu dùng tài khoản tổ chức, quyền sử dụng Skills còn phụ thuộc vào thiết lập của quản trị viên. [Hướng dẫn của Anthropic](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 
 **Trong AI có thể đọc tệp.** Tải [tài liệu Markdown độc lập](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/main/Quy-trinh-logo-brand-cho-AI.md), đính kèm nó vào cuộc trò chuyện cùng brief và tài nguyên của dự án. Khả năng tạo SVG, PDF hoặc tệp nguồn phụ thuộc vào công cụ bạn dùng.
 
