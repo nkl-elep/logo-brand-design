@@ -2,3 +2,6 @@ interface:
   display_name: "Thiết kế logo và bộ nhận diện"
   short_description: "Từ brief và phương án logo tới ứng dụng và bàn giao"
   default_prompt: "Dùng $logo-brand-design để giúp mình thiết kế logo và bộ nhận diện theo brief đính kèm."
+  icon_small: "./assets/skill-icon.png"
+  icon_large: "./assets/skill-icon.svg"
+  brand_color: "#FF593F"

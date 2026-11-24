@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "brand_name": "Logo & Brand Design",
+  "approved_revision": null,
+  "approval_record": "README.md",
+  "logo": {
+    "primary_on_dark": "logo/lockup-light.svg",
+    "primary_on_light": "logo/lockup-dark.svg",
+    "symbol": "logo/monogram.svg",
+    "monochrome": "logo/monogram.svg",
+    "clear_space_unit": "1x = độ rộng trụ chữ L",
+    "min_full_width_px": 160,
+    "min_symbol_width_px": 24,
+    "min_full_width_mm": null
+  },
+  "color": {
+    "space": "sRGB",
+    "background": "#F8F3E8",
+    "text": "#281C31",
+    "accent": "#FF593F",
+    "secondary": [
+      "#EEC2D7"
+    ],
+    "approved_text_background_pairs": [
+      [
+        "#281C31",
+        "#F8F3E8"
+      ],
+      [
+        "#281C31",
+        "#EEC2D7"
+      ],
+      [
+        "#281C31",
+        "#FF593F"
+      ],
+      [
+        "#F8F3E8",
+        "#281C31"
+      ]
+    ],
+    "print_profile": null,
+    "print_values": null
+  },
+  "typography": {
+    "display": {
+      "family": "Bricolage Grotesque",
+      "weight": 770,
+      "source": "fonts/BricolageGrotesque-Variable.ttf"
+    },
+    "body": {
+      "family": "Be Vietnam Pro",
+      "weight": 400,
+      "source": "fonts/BeVietnamPro-Regular.ttf"
+    },
+    "technical": {
+      "family": null,
+      "weight": null,
+      "source": null
+    },
+    "fallbacks": [],
+    "styles_by_channel": [
+      {
+        "role": "Nhãn",
+        "family": "Be Vietnam Pro",
+        "weight": 600,
+        "source": "fonts/BeVietnamPro-SemiBold.ttf"
+      },
+      {
+        "role": "Tiêu đề",
+        "axes": {
+          "opsz": 72,
+          "wdth": 95,
+          "wght": 770
+        }
+      }
+    ]
+  },
+  "graphic_elements": {
+    "pattern_asset": null,
+    "imagery_rules": [
+      "Ảnh chất liệu in dùng tông son và mực. Đặt chữ lên mảng màu đặc."
+    ],
+    "layout_rules": [],
+    "motion_rules": []
+  },
+  "voice": {
+    "language": "vi",
+    "principles": [
+      "Gọi đúng tên phương án và đưa ra một thao tác mỗi câu."
+    ],
+    "sample": "Thu logo về cỡ avatar. Hai lòng chữ B còn tách rõ không?"
+  },
+  "applications": [
+    "applications/avatar.svg",
+    "applications/social.svg",
+    "applications/workbook-a5.svg",
+    "applications/decision-a6.svg"
+  ],
+  "guideline_file": "brand-guideline.pdf",
+  "reference_output": "images/applications.png"
+}

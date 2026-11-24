@@ -1,14 +1,20 @@
 # Logo & Brand Design
 
-Một skill tiếng Việt giúp bạn làm việc với AI từ lúc còn phân vân giữa vài ý tưởng logo đến lúc có bộ nhận diện để dùng trên màn hình, trên giấy và tại điểm bán.
+![Logo & Brand Design — dấu ghép LB màu son và ảnh con lăn mực in](examples/skill-identity/images/cover.png)
 
-Giả sử khách chọn **“giữ biểu tượng bên trái, lấy phần chữ bên phải”**. Ở vòng sau, AI cần biết chính xác hai file nào đã được duyệt. Skill này giúp bạn đặt các phương án cạnh nhau, ghi lại lựa chọn theo từng thành phần và dùng đúng bản đó khi triển khai ứng dụng tiếp theo.
+Một skill tiếng Việt cho chủ thương hiệu và designer cùng làm việc với AI. Dùng nó để so sánh ý tưởng logo, ghi lại phần đã duyệt và triển khai một bộ nhận diện dùng được trên màn hình, trên giấy và tại điểm bán.
 
-**[Tải bản đóng gói](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/logo-brand-design.zip)** · **[Đọc bản dành cho AI khác](Quy-trinh-logo-brand-cho-AI.md)**
+**[Tải skill](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/logo-brand-design.zip)** · **[Dùng với AI đọc tệp](Quy-trinh-logo-brand-cho-AI.md)** · **[Xem brand guideline 6 trang](examples/skill-identity/brand-guideline.pdf)**
 
-![Bảng duyệt của một thương hiệu sổ tay giả định. Ba phương án cùng kích thước, kèm lý do chọn phương án B để thử trên bìa sổ.](docs/bang-duyet-mau.png)
+## Chính skill này cũng có một bộ nhận diện
 
-*Bản PDF xuất từ bảng so sánh đi kèm. Tên thương hiệu và thiết kế trong hình là ví dụ minh họa.*
+Dấu **LB** ghép chữ L của *Logo* và chữ B của *Brand*. Một khe chéo ở chân tách hai chữ khi thu nhỏ. Cùng dấu đó xuất hiện ở icon Codex, mở rộng thành mảng hình trên bìa sổ A5 và thu về một góc trên phiếu chốt mẫu để nhường chỗ ghi tay.
+
+![Phối cảnh bìa sổ duyệt, phiếu A6 và artwork bài tập thị giác với dấu LB](examples/skill-identity/images/print-study.jpg)
+
+*Phối cảnh minh họa bằng AI. Bản in được xuất riêng từ artwork vector, có khổ thành phẩm và tràn lề.*
+
+Mở [bộ nhận diện mẫu](examples/skill-identity/README.md) để xem logo sáng/tối, bảng màu, kiểu chữ, avatar, bài đăng dọc và hai ấn phẩm in. Bạn có thể [tải trọn bộ demo](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/demo-brand-identity.zip). Có sẵn [thông số cho AI](examples/skill-identity/brand-tokens.json) để thử triển khai thêm một điểm chạm.
 
 ## Dùng thử với một brief
 
