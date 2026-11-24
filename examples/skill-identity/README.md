@@ -1,6 +1,6 @@
-# Dấu ghép LB
+# Bộ nhận diện của Logo & Brand Design
 
-Bộ nhận diện minh họa cho chính skill **Logo & Brand Design**, dành cho chủ thương hiệu và người thiết kế cùng duyệt một phương án. Trong brief này, dấu hiệu cần nhận ra ở icon Codex và có thể in một màu lên phiếu dùng trong buổi duyệt.
+Bộ nhận diện minh họa cho chính skill **Logo & Brand Design**, dành cho chủ thương hiệu và người thiết kế cùng duyệt một phương án. Dấu ghép **LB** xuất hiện trên biểu tượng Codex và trên phiếu in một màu dùng trong buổi duyệt.
 
 ![Bài đăng, sổ duyệt và phiếu chốt mẫu](images/applications.png)
 

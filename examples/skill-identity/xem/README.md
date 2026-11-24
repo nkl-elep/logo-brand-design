@@ -1,6 +1,6 @@
-# Dấu ghép LB · Xem guideline trên GitHub
+# Cẩm nang thương hiệu của Logo & Brand Design
 
-Sáu trang dưới đây được xuất trực tiếp từ guideline. [Tải PDF](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/skill-identity/brand-guideline.pdf) · [Mở bộ nguồn](../README.md).
+Sáu trang dưới đây được xuất trực tiếp từ cẩm nang thương hiệu. [Tải PDF](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/skill-identity/brand-guideline.pdf) · [Mở bộ nguồn](../README.md).
 
 ## 1. Bìa
 

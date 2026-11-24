@@ -4,7 +4,7 @@ Khách gặp Múi trên mạng, nhìn nhãn chai và chọn vị tại quầy. B
 
 ![Bìa cẩm nang Múi](xem/bia.jpg)
 
-**[Mở ảnh bìa riêng](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/xem/bia.jpg)** · **[Tải guideline PDF](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/guideline.pdf)** · **[Tải bộ Múi](https://github.com/nkl-elep/logo-brand-design/releases/download/v1.2.0/demo-mui.zip)**
+**[Mở ảnh bìa riêng](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/xem/bia.jpg)** · **[Cẩm nang thương hiệu Múi (PDF)](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/guideline.pdf)** · **[Tải gói bàn giao Múi (ZIP)](https://github.com/nkl-elep/logo-brand-design/releases/download/v1.2.1/demo-mui.zip)**
 
 ## Logo, màu và chữ
 
@@ -24,12 +24,14 @@ Lá quýt `#123F2D` · Vàng tép `#FFEA66` · Cam vỏ `#FF8B4F`. Câu ngắn, 
 | Nhãn chai mẫu | 160 × 67.5 mm | [Xem ảnh riêng](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/xem/nhan-chai.jpg) · [Nguồn SVG](ung-dung/nhan-chai.svg) · [Tải PDF](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/ung-dung/nhan-chai.pdf) |
 | Thẻ quầy thử vị | 105 × 148 mm | [Xem ảnh riêng](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/xem/the-thu-vi.jpg) · [Nguồn SVG](ung-dung/the-thu-vi.svg) · [Tải PDF](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/ung-dung/the-thu-vi.pdf) |
 
-Trong SVG, các tên font nội bộ Serif, Round, Tall, Sans và Mono lần lượt chỉ Cormorant Garamond, Baloo 2, Barlow Condensed, Be Vietnam Pro và IBM Plex Mono. Khi phần mềm không đọc font nhúng, gán lại hai font ghi trong guideline.
+Trong SVG, các tên font nội bộ Serif, Round, Tall, Sans và Mono lần lượt chỉ Cormorant Garamond, Baloo 2, Barlow Condensed, Be Vietnam Pro và IBM Plex Mono. Khi phần mềm không đọc font nhúng, gán lại hai font ghi trong cẩm nang thương hiệu.
 
 Các bản in dùng sRGB và có tràn lề 3 mm. Ảnh chất liệu trong bộ do AI tạo. Xem màu trên vật liệu trước khi sản xuất. [Mở ảnh ứng dụng riêng](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/xem/ung-dung.jpg).
 
 ## Giao cho AI làm tiếp
 
+Xem **bài đăng ra mắt** cạnh **story “Ghé thử vị”** do chat mới thực hiện trong [Thử ngay với Múi](https://github.com/nkl-elep/logo-brand-design#thử-ngay-với-múi).
+
 > Làm story 1080 × 1920 cho quầy thử soda quýt, CTA “Ghé thử vị”.
 
-Đính kèm [brief và quyết định của demo](BAN-GIAO-AI.md), [thông số JSON](brand-tokens.json), đúng [logo gốc](logo/) và một mẫu ứng dụng. [Thư mục font](fonts/) chứa font cùng giấy phép SIL Open Font License.
+Đính kèm [phiếu bàn giao cho AI · Múi](BAN-GIAO-AI.md), [thông số thương hiệu (JSON)](brand-tokens.json), đúng [logo gốc](logo/) và một mẫu ứng dụng. [Thư mục font](fonts/) chứa font cùng giấy phép SIL Open Font License.

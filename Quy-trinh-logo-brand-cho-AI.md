@@ -1,4 +1,4 @@
-# Thiết kế logo và bộ nhận diện cùng AI
+# Logo & Brand Design · Hướng dẫn cho AI
 
 Dùng tài liệu độc lập này làm hướng dẫn làm việc. Áp dụng workflow vào brief và tài nguyên người dùng cung cấp. Nếu đã có một phần được duyệt, bắt đầu từ phần còn mở.
 
@@ -7,8 +7,8 @@ Xác định đầu ra của lượt này trước khi vẽ. Có người muốn
 ## Chọn điểm bắt đầu
 
 - **Chủ thương hiệu mới bắt đầu.** Tóm tắt ai cần thương hiệu này, họ cần việc gì và gặp nó lần đầu ở đâu. Giải thích lựa chọn bằng ví dụ nhìn thấy được. Chỉ hỏi những điểm có khả năng đổi thiết kế, chẳng hạn dấu nào trong tên phải giữ hoặc logo xuất hiện nhỏ nhất ở đâu.
-- **Designer / agency đã có brief.** Đọc brief, master và lịch sử duyệt. Trích đúng ràng buộc, xác định file còn thiếu có ảnh hưởng đến đầu ra, rồi làm tiếp tại vòng yêu cầu. Dùng phiếu quyết định ở phụ lục để nối các vòng.
-- **Đã có nhận diện.** Tìm guideline và master khách duyệt. Xác định đúng phiên bản nếu có nhiều bộ. Nếu chỉ có ảnh chụp, dùng làm tham chiếu và ghi rõ khi phải dựng lại. Tiếp tục các hạng mục đủ dữ liệu.
+- **Designer / agency đã có brief.** Đọc brief, master và lịch sử duyệt. Trích đúng ràng buộc, xác định file còn thiếu có ảnh hưởng đến đầu ra, rồi làm tiếp tại vòng yêu cầu. Dùng phiếu duyệt thiết kế ở phụ lục để nối các vòng.
+- **Đã có nhận diện.** Tìm cẩm nang thương hiệu và master khách duyệt. Xác định đúng phiên bản nếu có nhiều bộ. Nếu chỉ có ảnh chụp, dùng làm tham chiếu và ghi rõ khi phải dựng lại. Tiếp tục các hạng mục đủ dữ liệu.
 
 ## Từ lời kể đến logo đã chọn
 
@@ -20,7 +20,7 @@ Xác định đầu ra của lượt này trước khi vẽ. Có người muốn
 
 ## Từ logo đến bộ nhận diện
 
-Theo mục Triển khai theo hành trình sử dụng để chọn điểm chạm, tạo file nguồn và kiểm chứng. Với yêu cầu trọn bộ, **guidelines** ghi quy tắc, **identity** cho thấy quy tắc hoạt động trên nội dung thực tế, **gói sản xuất** chứa những file có thể sửa, xuất và sử dụng.
+Theo mục Triển khai theo hành trình sử dụng để chọn điểm chạm, tạo file nguồn và kiểm chứng. Với yêu cầu trọn bộ, **cẩm nang thương hiệu** ghi quy tắc, **bộ nhận diện** cho thấy quy tắc hoạt động trên nội dung thực tế, **gói sản xuất** chứa những file có thể sửa, xuất và sử dụng.
 
 Khi bàn giao cho AI, điền mẫu thông số ở cuối tài liệu bằng quyết định của dự án đang làm. Dẫn tới master bằng đường dẫn tương đối và thêm một brief mẫu. Màu, font, khoảng bảo vệ, kích thước tối thiểu và chuyển động phụ thuộc thương hiệu và môi trường sử dụng.
 
@@ -71,7 +71,7 @@ Dựa vào nơi khách hàng biết đến thương hiệu, ra quyết định, 
 
 Nếu yêu cầu chỉ là một logo, dùng bảng để chọn điểm chạm thử. Khi có yêu cầu cả bộ, tạo bộ nguồn dùng được, gồm ví dụ online và offline phù hợp ngành. Đánh dấu dữ liệu mẫu như số điện thoại, thành tích và số liệu dự án.
 
-### Viết guideline từ file đã duyệt
+### Viết cẩm nang thương hiệu từ file đã duyệt
 
 - **Logo.** Lưu master vector, bản chữ đã chuyển thành đường nét và bản nguồn chỉnh được nếu có. Xuất bản chính, bản đơn sắc, bản tương phản và biểu tượng gọn theo nhu cầu. Vẽ trực tiếp đơn vị khoảng bảo vệ trên logo. Rút kích thước tối thiểu từ bản thử thay vì chọn một con số quen tay.
 - **Màu.** Gán vai trò cho nền, chữ, nhấn và màu phụ. Chỉ ra một cặp chữ/nền dùng được bằng ví dụ thật. Ghi HEX/sRGB cho số. Nếu có đầu ra in, ghi profile và giá trị CMYK thực dùng hoặc ghi chờ nhà in. Màu vật liệu và mực đặc biệt cần mẫu vật lý để chốt.
@@ -81,7 +81,7 @@ Nếu yêu cầu chỉ là một logo, dùng bảng để chọn điểm chạm 
 
 ### Đóng gói nguồn cho người và AI
 
-Giao thư mục logo, font hoặc nguồn font, màu, guideline, mẫu ứng dụng và file sản xuất theo phạm vi. Với ấn phẩm in, ghi khổ thành phẩm, tràn lề và vùng an toàn theo thông số nhà in. Phân biệt ảnh phối cảnh, file in và bản duyệt vật liệu.
+Giao thư mục logo, font hoặc nguồn font, màu, cẩm nang thương hiệu, mẫu ứng dụng và file sản xuất theo phạm vi. Với ấn phẩm in, ghi khổ thành phẩm, tràn lề và vùng an toàn theo thông số nhà in. Phân biệt ảnh phối cảnh, file in và bản duyệt vật liệu.
 
 Khi khách cần AI nối việc, tạo thêm một thư mục có thể mang sang máy khác. Đưa vào đó master được phép chia sẻ, thông số đã duyệt, quy tắc ngắn, một ví dụ và một brief. Sửa mẫu JSON ở cuối tài liệu cho đúng thương hiệu, trong đó giá trị null nghĩa là chưa có quyết định. Mỗi đường dẫn bắt đầu từ thư mục chứa JSON. Khi hai nguồn bất nhất, ưu tiên quyết định mới nhất đã được khách duyệt và đồng bộ các file dẫn xuất. Kèm một lệnh giao việc hoàn chỉnh, ví dụ “Tạo thư mời ra mắt theo master chính, dùng nội dung đính kèm, xuất bản in A6 và một bản gửi qua email”.
 
@@ -113,7 +113,7 @@ Khi khách cần AI nối việc, tạo thêm một thư mục có thể mang sa
 **Ngày, mã vòng, phương án được chọn và file chính tương ứng** · …
 **Câu hỏi duy nhất có thể thay đổi vòng tiếp theo** · …
 
-## Mẫu thông số bàn giao cho AI
+## Mẫu thông số thương hiệu (JSON)
 
 Giữ null cho giá trị đang chờ duyệt, dẫn các file tương đối từ vị trí lưu JSON.
 
@@ -183,6 +183,7 @@ Giữ null cho giá trị đang chờ duyệt, dẫn các file tương đối t�
 ## Phiếu bàn giao cho AI
 
 **Tên thương hiệu, phiên bản và ngày quyết định** · …
+**Tên viết tắt được duyệt (nếu có) và tên ấn phẩm dùng khi bàn giao** · …
 **Hạng mục tiếp theo, người xem và hành động mong muốn** · …
 
 | Dữ liệu cần dùng | File tương đối trong gói | Quyết định đã chốt |

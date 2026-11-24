@@ -1,10 +1,10 @@
-# Giao AI làm tiếp cho Múi
+# Phiếu bàn giao cho AI · Múi
 
 **Phiên bản dùng trong demo** · demo-1.0. Đây là thương hiệu giả định. Khách gặp Múi trên mạng, nhìn nhãn chai và chọn vị tại quầy.
 
 ## Tài nguyên cần mở
 
-1. Đọc [bản xem guideline](README.md) và [thông số thương hiệu](brand-tokens.json).
+1. Đọc [cẩm nang thương hiệu Múi](README.md) và [thông số thương hiệu](brand-tokens.json).
 2. Đặt [master đậm](logo/logo-dam.svg) lên nền sáng, [master sáng](logo/logo-sang.svg) lên nền đậm. Khi chỉ đủ chỗ cho biểu tượng, lấy [dấu rời](logo/dau.svg).
 3. Dùng [ấn phẩm online đã dựng](ung-dung/bai-ra-mat.svg) để đối chiếu chữ, lề và nội dung. So với [ảnh của cả bộ](xem/ung-dung.jpg) khi chuyển kênh.
 

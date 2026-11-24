@@ -1,17 +1,17 @@
 ---
 name: logo-brand-design
-description: Thiết kế hoặc tinh chỉnh logo, phát triển bộ nhận diện online và offline, soạn brand guidelines và gói bàn giao cho AI. Dùng khi người dùng cần khám phá phương án, duyệt thiết kế hoặc triển khai từ logo đã chốt.
+description: Thiết kế hoặc tinh chỉnh logo, phát triển bộ nhận diện online và offline, soạn cẩm nang thương hiệu và gói bàn giao cho AI. Dùng khi người dùng cần khám phá phương án, duyệt thiết kế hoặc triển khai từ logo đã chốt.
 ---
 
-# Thiết kế logo và bộ nhận diện
+# Logo & Brand Design
 
 Xác định đầu ra của lượt này trước khi vẽ. Có người muốn xem ba logo cạnh nhau, có người chỉ muốn sửa chữ, có người đã sẵn sàng đưa thiết kế vào sản xuất. Dùng quyết định gần nhất của họ làm điểm xuất phát.
 
 ## Chọn điểm bắt đầu
 
 - **Chủ thương hiệu mới bắt đầu.** Tóm tắt ai cần thương hiệu này, họ cần việc gì và gặp nó lần đầu ở đâu. Giải thích lựa chọn bằng ví dụ nhìn thấy được. Chỉ hỏi những điểm có khả năng đổi thiết kế, chẳng hạn dấu nào trong tên phải giữ hoặc logo xuất hiện nhỏ nhất ở đâu.
-- **Designer / agency đã có brief.** Đọc brief, master và lịch sử duyệt. Trích đúng ràng buộc, xác định file còn thiếu có ảnh hưởng đến đầu ra, rồi làm tiếp tại vòng yêu cầu. Dùng [phiếu quyết định](assets/phieu-quyet-dinh.md) để nối các vòng.
-- **Đã có nhận diện.** Tìm guideline và master khách duyệt. Xác định đúng phiên bản nếu có nhiều bộ. Nếu chỉ có ảnh chụp, dùng làm tham chiếu và ghi rõ khi phải dựng lại. Tiếp tục các hạng mục đủ dữ liệu.
+- **Designer / agency đã có brief.** Đọc brief, master và lịch sử duyệt. Trích đúng ràng buộc, xác định file còn thiếu có ảnh hưởng đến đầu ra, rồi làm tiếp tại vòng yêu cầu. Dùng [phiếu duyệt thiết kế](assets/phieu-quyet-dinh.md) để nối các vòng.
+- **Đã có nhận diện.** Tìm cẩm nang thương hiệu và master khách duyệt. Xác định đúng phiên bản nếu có nhiều bộ. Nếu chỉ có ảnh chụp, dùng làm tham chiếu và ghi rõ khi phải dựng lại. Tiếp tục các hạng mục đủ dữ liệu.
 
 ## Từ lời kể đến logo đã chọn
 
@@ -23,7 +23,7 @@ Xác định đầu ra của lượt này trước khi vẽ. Có người muốn
 
 ## Từ logo đến bộ nhận diện
 
-Theo [hướng dẫn triển khai và bàn giao](references/trien-khai.md) để chọn điểm chạm, tạo file nguồn và kiểm chứng. Với yêu cầu trọn bộ, **guidelines** ghi quy tắc, **identity** cho thấy quy tắc hoạt động trên nội dung thực tế, **gói sản xuất** chứa những file có thể sửa, xuất và sử dụng.
+Theo [hướng dẫn triển khai và bàn giao](references/trien-khai.md) để chọn điểm chạm, tạo file nguồn và kiểm chứng. Với yêu cầu trọn bộ, **cẩm nang thương hiệu** ghi quy tắc, **bộ nhận diện** cho thấy quy tắc hoạt động trên nội dung thực tế, **gói sản xuất** chứa những file có thể sửa, xuất và sử dụng.
 
 Khi bàn giao cho AI, điền [mẫu thông số](assets/brand-tokens.json) bằng quyết định của dự án đang làm. Dẫn tới master bằng đường dẫn tương đối và thêm một brief mẫu. Dùng [phiếu bàn giao cho AI](assets/ban-giao-cho-ai.md) để chỉ đúng file nguồn, phần đã khóa, phần được tự chọn và cách kiểm bản xuất. Màu, font, khoảng bảo vệ, kích thước tối thiểu và chuyển động phụ thuộc thương hiệu và môi trường sử dụng.
 
