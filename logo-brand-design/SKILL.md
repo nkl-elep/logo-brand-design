@@ -25,6 +25,6 @@ Xác định đầu ra của lượt này trước khi vẽ. Có người muốn
 
 Theo [hướng dẫn triển khai và bàn giao](references/trien-khai.md) để chọn điểm chạm, tạo file nguồn và kiểm chứng. Với yêu cầu trọn bộ, **guidelines** ghi quy tắc, **identity** cho thấy quy tắc hoạt động trên nội dung thực tế, **gói sản xuất** chứa những file có thể sửa, xuất và sử dụng.
 
-Khi bàn giao cho AI, điền [mẫu thông số](assets/brand-tokens.json) bằng quyết định của dự án đang làm. Dẫn tới master bằng đường dẫn tương đối và thêm một brief mẫu. Màu, font, khoảng bảo vệ, kích thước tối thiểu và chuyển động phụ thuộc thương hiệu và môi trường sử dụng.
+Khi bàn giao cho AI, điền [mẫu thông số](assets/brand-tokens.json) bằng quyết định của dự án đang làm. Dẫn tới master bằng đường dẫn tương đối và thêm một brief mẫu. Dùng [phiếu bàn giao cho AI](assets/ban-giao-cho-ai.md) để chỉ đúng file nguồn, phần đã khóa, phần được tự chọn và cách kiểm bản xuất. Màu, font, khoảng bảo vệ, kích thước tối thiểu và chuyển động phụ thuộc thương hiệu và môi trường sử dụng.
 
 Kết thúc bằng đường dẫn tới file để mở trước, bộ nguồn và ghi chú về phần còn chờ như nội dung khách bổ sung, bước duyệt hoặc bản in thử.

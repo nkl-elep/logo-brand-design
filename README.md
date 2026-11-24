@@ -1,26 +1,57 @@
 # Logo & Brand Design
 
-![Logo & Brand Design — dấu ghép LB màu son và ảnh con lăn mực in](examples/skill-identity/images/cover.png)
+Skill tiếng Việt giúp chủ thương hiệu và designer tạo logo, xây bộ nhận diện và **bàn giao thiết kế để AI khác làm tiếp**. Khi cần làm thêm một trang web, email, video hay bao bì, AI có logo gốc, mã màu, font, mẫu đã duyệt và brief để bám theo.
 
-Một skill tiếng Việt cho chủ thương hiệu và designer cùng làm việc với AI. Dùng nó để so sánh ý tưởng logo, ghi lại phần đã duyệt và triển khai một bộ nhận diện dùng được trên màn hình, trên giấy và tại điểm bán.
+![Ba thương hiệu mẫu: Sành với gốm men nâu, Múi với soda quýt và Tần với radio điện tử](docs/ba-nganh.jpg)
 
-**[Tải skill](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/logo-brand-design.zip)** · **[Dùng với AI đọc tệp](Quy-trinh-logo-brand-cho-AI.md)** · **[Xem brand guideline 6 trang](examples/skill-identity/brand-guideline.pdf)**
+**[Tải skill cho Codex](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/logo-brand-design.zip)** · **[Đọc bản dùng với AI khác](Quy-trinh-logo-brand-cho-AI.md)** · **[Mở riêng ảnh ba thương hiệu](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/docs/ba-nganh.jpg)**
 
-## Chính skill này cũng có một bộ nhận diện
+## Cùng một skill, ba ngành khác nhau
 
-Dấu **LB** ghép chữ L của *Logo* và chữ B của *Brand*. Một khe chéo ở chân tách hai chữ khi thu nhỏ. Cùng dấu đó xuất hiện ở icon Codex, mở rộng thành mảng hình trên bìa sổ A5 và thu về một góc trên phiếu chốt mẫu để nhường chỗ ghi tay.
+Mỗi liên kết **Xem guideline** bên dưới mở một trang GitHub có đủ ba trang cẩm nang dưới dạng ảnh và phần mô tả bằng chữ. Gói ZIP dành cho lúc bạn muốn lấy file gốc để chỉnh tiếp.
 
-![Phối cảnh bìa sổ duyệt, phiếu A6 và artwork bài tập thị giác với dấu LB](examples/skill-identity/images/print-study.jpg)
+### Sành · Xưởng gốm thủ công
 
-*Phối cảnh minh họa bằng AI. Bản in được xuất riêng từ artwork vector, có khổ thành phẩm và tràn lề.*
+Logo lấy nét tiện trên thân bình làm hình hiệu. Chữ có chân, màu men nâu và nền giấy mộc đi từ catalogue bán hàng đến thẻ ghi tên người làm.
 
-Mở [bộ nhận diện mẫu](examples/skill-identity/README.md) để xem logo sáng/tối, bảng màu, kiểu chữ, avatar, bài đăng dọc và hai ấn phẩm in. Bạn có thể [tải trọn bộ demo](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/demo-brand-identity.zip). Có sẵn [thông số cho AI](examples/skill-identity/brand-tokens.json) để thử triển khai thêm một điểm chạm.
+![Catalogue số, thẻ xuất xưởng và thẻ chăm gốm của Sành](examples/sanh/xem/ung-dung.jpg)
 
-## Dùng thử với một brief
+[Xem guideline Sành](examples/sanh/README.md) · [Mở riêng ảnh ứng dụng](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/sanh/xem/ung-dung.jpg) · [Tải bộ Sành](https://github.com/nkl-elep/logo-brand-design/releases/download/v1.2.0/demo-sanh.zip)
 
-> Dùng $logo-brand-design cho thương hiệu sổ tay Nếp. Khách thấy logo lần đầu trên bìa sổ A6, sau đó là ảnh đại diện cửa hàng. Mình muốn hai phương án đọc rõ ở cả hai kích thước. Đặt chúng cạnh nhau để mình chọn trước khi làm tem và hộp.
+### Múi · Soda trái cây
 
-Nếu bạn là **chủ thương hiệu**, hãy bắt đầu bằng tên, khách hàng và nơi logo sẽ xuất hiện. Nếu bạn là **designer hoặc agency**, hãy gửi brief, file logo gốc và ghi rõ phần khách đã chốt. Chẳng hạn, “Giữ biểu tượng B và màu mực. Thử hai cách ghép tên, rồi cho mình xem ở kích thước in 25 mm.”
+Ba khoảng rỗng trong lát quýt trở thành dấu Múi. Chữ tròn và mảng vàng tép hiện diện trên bài đăng ra mắt, nhãn chai và thẻ đặt tại quầy thử vị.
+
+![Bài đăng, nhãn soda quýt và thẻ quầy thử vị của Múi](examples/mui/xem/ung-dung.jpg)
+
+[Xem guideline Múi](examples/mui/README.md) · [Mở riêng ảnh ứng dụng](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/xem/ung-dung.jpg) · [Tải bộ Múi](https://github.com/nkl-elep/logo-brand-design/releases/download/v1.2.0/demo-mui.zip)
+
+### Tần · Radio điện tử độc lập
+
+Sáu thanh tín hiệu, chữ hẹp và ảnh đĩa than đen trắng tạo nhịp cho lịch phát. Vé phiên nghe và danh sách phát dùng cùng kiểu chữ giờ để khán giả tra nhanh trong bóng tối.
+
+![Lịch phát online, vé phiên nghe và danh sách phát của Tần](examples/tan/xem/ung-dung.jpg)
+
+[Xem guideline Tần](examples/tan/README.md) · [Mở riêng ảnh ứng dụng](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/tan/xem/ung-dung.jpg) · [Tải bộ Tần](https://github.com/nkl-elep/logo-brand-design/releases/download/v1.2.0/demo-tan.zip)
+
+## AI tiếp theo cần nhận gì?
+
+Ví dụ, Múi đã có nhãn chai và bài đăng. Để giao một AI khác làm **story mời thử vị**, giải nén bộ Múi, gửi cho AI thư mục dự án rồi dùng lời giao việc bên dưới. Nếu công cụ chỉ nhận từng tệp, gửi bản brief, JSON, logo đúng màu và ảnh mẫu trước; gửi thêm font và SVG khi cần xuất artwork.
+
+| Tài nguyên | Quyết định AI lấy từ đây |
+|---|---|
+| [Brief bàn giao Múi](examples/mui/BAN-GIAO-AI.md) | Điểm chạm sắp làm, nội dung được dùng và định dạng phải giao |
+| [Thông số thương hiệu](examples/mui/brand-tokens.json) | Mã màu, cặp chữ/nền, font, vai trò màu và cỡ logo tối thiểu |
+| [Logo gốc](examples/mui/logo/) và [font](examples/mui/fonts/) | Đúng hình học của lát quýt và đúng kiểu chữ tiếng Việt |
+| [Ứng dụng đã dựng](examples/mui/README.md) | Cách bố trí ảnh, mật độ chữ, lề và giọng nói khi sang kênh mới |
+
+> Dùng bộ bàn giao Múi làm story 1080 × 1920 cho quầy thử soda quýt. CTA là “Ghé thử vị”. Lấy nguyên logo từ master, đối chiếu màu và font với JSON, giữ nhịp chữ ngắn của bài đăng mẫu. Giao SVG sửa được và PNG. Chừa chỗ cho địa điểm vì brief chưa có.
+
+Khi làm cho thương hiệu của bạn, điền [mẫu bàn giao cho AI](logo-brand-design/assets/ban-giao-cho-ai.md) và [mẫu thông số JSON](logo-brand-design/assets/brand-tokens.json) bằng các quyết định riêng của dự án.
+
+## Bộ nhận diện của chính skill
+
+Dấu ghép **LB** dùng trên icon Codex, bìa sổ duyệt A5 và phiếu chốt mẫu A6. [Xem guideline LB ngay trên GitHub](examples/skill-identity/xem/README.md) · [Xem bộ nhận diện](examples/skill-identity/README.md) · [Tải bộ LB](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/demo-brand-identity.zip).
 
 ## Cài và sử dụng
 

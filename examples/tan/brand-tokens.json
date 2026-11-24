@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "brand_name": "Tần",
+  "approved_revision": "demo-1.0",
+  "approval_record": "BAN-GIAO-AI.md",
+  "logo": {
+    "primary_on_dark": "logo/logo-sang.svg",
+    "primary_on_light": "logo/logo-dam.svg",
+    "symbol": "logo/dau.svg",
+    "monochrome": "logo/dau.svg",
+    "clear_space_unit": "Chừa quanh logo tối thiểu bề ngang một thanh tín hiệu.",
+    "min_full_width_px": 120,
+    "min_symbol_width_px": 24,
+    "min_full_width_mm": null
+  },
+  "color": {
+    "space": "sRGB",
+    "background": "#121419",
+    "text": "#E1FF47",
+    "accent": "#AEB7FF",
+    "secondary": [
+      "#121419",
+      "#E1FF47"
+    ],
+    "approved_text_background_pairs": [
+      [
+        "#E1FF47",
+        "#121419"
+      ],
+      [
+        "#121419",
+        "#E1FF47"
+      ]
+    ],
+    "print_profile": null,
+    "print_values": null,
+    "swatches": [
+      {
+        "name": "Than đĩa",
+        "hex": "#121419"
+      },
+      {
+        "name": "Tín hiệu",
+        "hex": "#E1FF47"
+      },
+      {
+        "name": "Tím lạnh",
+        "hex": "#AEB7FF"
+      }
+    ]
+  },
+  "typography": {
+    "display": {
+      "family": "Barlow Condensed",
+      "weight": 800,
+      "source": "fonts/BarlowCondensed-ExtraBold.ttf"
+    },
+    "body": {
+      "family": "IBM Plex Mono",
+      "weight": 400,
+      "source": "fonts/IBMPlexMono-Regular.ttf"
+    },
+    "technical": {
+      "family": "IBM Plex Mono",
+      "weight": 400,
+      "source": "fonts/IBMPlexMono-Regular.ttf"
+    },
+    "fallbacks": [],
+    "styles_by_channel": []
+  },
+  "graphic_elements": {
+    "pattern_asset": null,
+    "imagery_rules": [
+      "Đĩa than và kim đọc cắt cận, ảnh đen trắng."
+    ],
+    "layout_rules": [
+      "Tiêu đề nén, chữ giờ mono, lưới thẳng và ảnh đen trắng."
+    ],
+    "motion_rules": []
+  },
+  "voice": {
+    "language": "vi",
+    "principles": [
+      "Ghi tên phiên, giờ và định dạng trước lời giới thiệu."
+    ],
+    "sample": "Phiên 003 / Rãnh đêm / 21:00"
+  },
+  "applications": [
+    "ung-dung/lich-phat.svg",
+    "ung-dung/ve-phien-nghe.svg",
+    "ung-dung/danh-sach-phat.svg"
+  ],
+  "guideline_file": "guideline.pdf",
+  "reference_output": "xem/ung-dung.jpg"
+}

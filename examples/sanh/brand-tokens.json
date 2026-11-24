@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brand_name": "Sành",
+  "approved_revision": "demo-1.0",
+  "approval_record": "BAN-GIAO-AI.md",
+  "logo": {
+    "primary_on_dark": "logo/logo-sang.svg",
+    "primary_on_light": "logo/logo-dam.svg",
+    "symbol": "logo/dau.svg",
+    "monochrome": "logo/dau.svg",
+    "clear_space_unit": "Chừa quanh logo một khoảng bằng chiều cao cổ bình.",
+    "min_full_width_px": 132,
+    "min_symbol_width_px": 32,
+    "min_full_width_mm": null
+  },
+  "color": {
+    "space": "sRGB",
+    "background": "#F5ECDB",
+    "text": "#532C28",
+    "accent": "#AF6B4F",
+    "secondary": [
+      "#532C28"
+    ],
+    "approved_text_background_pairs": [
+      [
+        "#F5ECDB",
+        "#532C28"
+      ],
+      [
+        "#532C28",
+        "#F5ECDB"
+      ]
+    ],
+    "print_profile": null,
+    "print_values": null,
+    "swatches": [
+      {
+        "name": "Men nâu",
+        "hex": "#532C28"
+      },
+      {
+        "name": "Giấy mộc",
+        "hex": "#F5ECDB"
+      },
+      {
+        "name": "Đất nung",
+        "hex": "#AF6B4F"
+      }
+    ]
+  },
+  "typography": {
+    "display": {
+      "family": "Cormorant Garamond",
+      "weight": 600,
+      "source": "fonts/CormorantGaramond[wght].ttf"
+    },
+    "body": {
+      "family": "Be Vietnam Pro",
+      "weight": 400,
+      "source": "fonts/BeVietnamPro-Regular.ttf"
+    },
+    "technical": {
+      "family": null,
+      "weight": null,
+      "source": null
+    },
+    "fallbacks": [],
+    "styles_by_channel": []
+  },
+  "graphic_elements": {
+    "pattern_asset": null,
+    "imagery_rules": [
+      "Gốm đơn chiếc, ánh sáng xiên, sắc đất và nền trống."
+    ],
+    "layout_rules": [
+      "Để ảnh có khoảng thở. Canh trái và dùng đường kẻ mảnh."
+    ],
+    "motion_rules": []
+  },
+  "voice": {
+    "language": "vi",
+    "principles": [
+      "Gọi đúng chất men, dáng bình và thao tác chăm gốm."
+    ],
+    "sample": "Lau khô chân bình trước khi đặt lên kệ."
+  },
+  "applications": [
+    "ung-dung/catalogue.svg",
+    "ung-dung/the-xuat-xuong.svg",
+    "ung-dung/the-cham-gom.svg"
+  ],
+  "guideline_file": "guideline.pdf",
+  "reference_output": "xem/ung-dung.jpg"
+}

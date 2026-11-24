@@ -14,7 +14,7 @@ Hai chữ cái đầu đứng trên cùng một đường chân. Một khe cắt
 
 | Dùng cho | Tệp |
 |---|---|
-| Đọc cẩm nang 6 trang hoặc chỉnh từng trang | [Guideline PDF](brand-guideline.pdf) · [Nguồn SVG](guideline/) |
+| Đọc cẩm nang 6 trang hoặc chỉnh từng trang | [Xem 6 trang trên GitHub](xem/README.md) · [Tải PDF](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/skill-identity/brand-guideline.pdf) · [Nguồn SVG](guideline/) |
 | Chèn đúng logo trên hai loại nền | [Logo tối](logo/lockup-dark.svg) · [Logo sáng](logo/lockup-light.svg) · [Biểu tượng](logo/monogram.svg) |
 | Dùng trên môi trường số | [Avatar PNG](applications/avatar.png) · [Avatar SVG](applications/avatar.svg) · [Bài đăng PNG](applications/social.png) · [Nguồn bài đăng](applications/social.svg) |
 | In, ký và ghi chú khi duyệt | [Bìa sổ A5](applications/workbook-a5.pdf) · [Nguồn bìa](applications/workbook-a5.svg) · [Phiếu A6](applications/decision-a6.pdf) · [Nguồn phiếu](applications/decision-a6.svg) |

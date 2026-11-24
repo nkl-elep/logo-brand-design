@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brand_name": "Múi",
+  "approved_revision": "demo-1.0",
+  "approval_record": "BAN-GIAO-AI.md",
+  "logo": {
+    "primary_on_dark": "logo/logo-sang.svg",
+    "primary_on_light": "logo/logo-dam.svg",
+    "symbol": "logo/dau.svg",
+    "monochrome": "logo/dau.svg",
+    "clear_space_unit": "Chừa quanh logo một khoảng bằng bề ngang chữ i.",
+    "min_full_width_px": 125,
+    "min_symbol_width_px": 24,
+    "min_full_width_mm": null
+  },
+  "color": {
+    "space": "sRGB",
+    "background": "#FFEA66",
+    "text": "#123F2D",
+    "accent": "#FF8B4F",
+    "secondary": [
+      "#123F2D"
+    ],
+    "approved_text_background_pairs": [
+      [
+        "#FFEA66",
+        "#123F2D"
+      ],
+      [
+        "#123F2D",
+        "#FFEA66"
+      ]
+    ],
+    "print_profile": null,
+    "print_values": null,
+    "swatches": [
+      {
+        "name": "Lá quýt",
+        "hex": "#123F2D"
+      },
+      {
+        "name": "Vàng tép",
+        "hex": "#FFEA66"
+      },
+      {
+        "name": "Cam vỏ",
+        "hex": "#FF8B4F"
+      }
+    ]
+  },
+  "typography": {
+    "display": {
+      "family": "Baloo 2",
+      "weight": 800,
+      "source": "fonts/Baloo2[wght].ttf"
+    },
+    "body": {
+      "family": "Be Vietnam Pro",
+      "weight": 400,
+      "source": "fonts/BeVietnamPro-Regular.ttf"
+    },
+    "technical": {
+      "family": null,
+      "weight": null,
+      "source": null
+    },
+    "fallbacks": [],
+    "styles_by_channel": []
+  },
+  "graphic_elements": {
+    "pattern_asset": null,
+    "imagery_rules": [
+      "Cắt cận múi quả và đá lạnh, ánh sáng sắc, màu tươi."
+    ],
+    "layout_rules": [
+      "Dùng một mảng màu lớn, một tiêu đề tròn và một lát quả."
+    ],
+    "motion_rules": []
+  },
+  "voice": {
+    "language": "vi",
+    "principles": [
+      "Câu ngắn, có động từ. Nêu đúng vị trái cây."
+    ],
+    "sample": "Thử một ngụm!"
+  },
+  "applications": [
+    "ung-dung/bai-ra-mat.svg",
+    "ung-dung/nhan-chai.svg",
+    "ung-dung/the-thu-vi.svg"
+  ],
+  "guideline_file": "guideline.pdf",
+  "reference_output": "xem/ung-dung.jpg"
+}
