@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "brand_name": null,
+  "approved_revision": null,
+  "approval_record": null,
+  "logo": {
+    "primary_on_dark": null,
+    "primary_on_light": null,
+    "symbol": null,
+    "monochrome": null,
+    "clear_space_unit": null,
+    "min_full_width_px": null,
+    "min_symbol_width_px": null,
+    "min_full_width_mm": null
+  },
+  "color": {
+    "space": "sRGB",
+    "background": null,
+    "text": null,
+    "accent": null,
+    "secondary": [],
+    "approved_text_background_pairs": [],
+    "print_profile": null,
+    "print_values": null
+  },
+  "typography": {
+    "display": {
+      "family": null,
+      "weight": null,
+      "source": null
+    },
+    "body": {
+      "family": null,
+      "weight": null,
+      "source": null
+    },
+    "technical": {
+      "family": null,
+      "weight": null,
+      "source": null
+    },
+    "fallbacks": [],
+    "styles_by_channel": []
+  },
+  "graphic_elements": {
+    "pattern_asset": null,
+    "imagery_rules": [],
+    "layout_rules": [],
+    "motion_rules": []
+  },
+  "voice": {
+    "language": null,
+    "principles": [],
+    "sample": null
+  },
+  "applications": [],
+  "guideline_file": null,
+  "reference_output": null
+}

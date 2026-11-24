@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bảng duyệt logo</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f6f5f1;color:#242321;font:16px/1.5 system-ui,sans-serif}main{max-width:1440px;margin:auto;padding:clamp(20px,4vw,64px)}header{border-bottom:2px solid;padding-bottom:18px}h1{font-size:clamp(1.8rem,4vw,3.4rem);line-height:1.06;letter-spacing:-.045em;margin:0 0 12px}p{margin:8px 0}.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:22px 0}button,select,.upload{font:inherit;background:#fff;color:#242321;border:1px solid #a7a59c;border-radius:5px;padding:7px 12px;cursor:pointer}.toolbar label{display:flex;gap:6px;align-items:center}.upload:focus-within{outline:2px solid #00607f;outline-offset:2px}.cards{display:grid;grid-template-columns:repeat(var(--cols,3),minmax(0,1fr));gap:16px}article{overflow:hidden;border:1px solid #b9b7ae;border-radius:7px;background:#fff}.plate{height:clamp(170px,18vw,260px);background:#fff;display:grid;place-items:center;color:#595751}.dark .plate{background:#242321;color:#e5e3dd}.plate img{width:72%;height:62%;object-fit:contain}.small{width:42px;height:42px;object-fit:contain;background:#fff}.dark .small{background:#242321}[hidden]{display:none!important}.info{border-top:1px solid #d4d2c8;padding:16px}.info h2{margin:0;font-size:.82rem;letter-spacing:.05em}.sample{display:flex;align-items:center;gap:10px;min-height:52px;font-size:.85rem;color:#555}.upload{display:inline-flex;position:relative;align-items:center;font-size:.88rem;margin-top:8px}.file{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}.editable{overflow-wrap:anywhere;white-space:pre-wrap}.name{font-weight:650;font-size:1.25rem;margin:.35rem 0}.editable:focus{outline:2px solid #00607f;outline-offset:2px}.rev{font-weight:600}footer{margin-top:24px;border-top:1px solid #b9b7ae;padding-top:14px}button:hover,.upload:hover{background:#efeee8}.error{color:#8d271b}.guide{color:#53514b;font-size:.9rem}
+@media(max-width:700px){.cards{grid-template-columns:1fr}.plate{height:185px}}
+@page{size:A4 landscape;margin:10mm}
+@media print{body{background:white;font-size:11pt;print-color-adjust:exact;-webkit-print-color-adjust:exact}main{padding:0}.toolbar,.guide,.upload,.error{display:none}.cards{grid-template-columns:repeat(var(--cols,3),minmax(0,1fr));gap:3mm;margin-top:5mm}article{break-inside:avoid}.plate{height:48mm}.info{padding:3mm}h1{font-size:24pt}.plate .empty{display:none}header{padding-bottom:3mm}.sample{min-height:36px}.small{width:32px;height:32px}footer{margin-top:4mm}}
+</style>
+<main>
+<header><h1>Bảng duyệt logo</h1><div class="editable rev" contenteditable="plaintext-only" role="textbox" aria-label="Tên dự án và mã vòng">Tên dự án · Vòng 01</div></header>
+<p class="guide">Chọn logo cho từng ô, bấm vào chữ để sửa tên và nhận xét. Dùng file có khoảng trống quanh logo tương đương để so đúng tỷ lệ. Bấm In / lưu PDF để giữ lại vòng duyệt trước khi đóng trang.</p>
+<div class="toolbar"><label>Số phương án <select id="count"><option>3</option><option>2</option></select></label><label>Nền so sánh <select id="bg"><option value="light">Sáng</option><option value="dark">Tối</option></select></label><button id="print" type="button">In / lưu PDF</button></div>
+<section class="cards" aria-label="Các phương án"></section>
+<footer><strong>Quyết định của vòng</strong><p class="editable" contenteditable="plaintext-only" role="textbox" aria-label="Quyết định của vòng">Ghi mã được chọn, phần giữ lại và phần cần thử tiếp.</p></footer>
+</main>
+<template id="card"><article>
+<div class="plate"><span class="empty">Chưa chọn logo</span><img class="large" alt="" hidden></div>
+<div class="info"><h2></h2><div class="editable name" contenteditable="plaintext-only" role="textbox">Tên phương án</div>
+<p class="editable" contenteditable="plaintext-only" role="textbox">Điểm khác biệt cần xem ở phương án này.</p>
+<div class="sample" hidden><img class="small" alt=""><span>Xem thu nhỏ</span></div>
+<label class="upload">Chọn file logo<input class="file" type="file" accept="image/svg+xml,image/png,image/webp,image/jpeg"></label>
+<div class="error" role="status" aria-live="polite"></div></div></article></template>
+<script>
+const cards = document.querySelector('.cards');
+for (const code of ['A','B','C']) {
+  const card = document.querySelector('#card').content.firstElementChild.cloneNode(true);
+  card.querySelector('h2').textContent = 'PHƯƠNG ÁN ' + code;
+  card.querySelector('.name').setAttribute('aria-label','Tên phương án ' + code);
+  card.querySelector('p.editable').setAttribute('aria-label','Nhận xét cho ' + code);
+  const input = card.querySelector('input');
+  input.setAttribute('aria-label','Chọn file phương án ' + code);
+  let currentUrl;
+  let request = 0;
+  input.addEventListener('change', async () => {
+    const file = input.files[0];
+    if (!file) return;
+    const version = ++request;
+    const nextUrl = URL.createObjectURL(file);
+    const preview = new Image();
+    const status = card.querySelector('.error');
+    preview.src = nextUrl;
+    try {
+      await preview.decode();
+      if (version !== request) { URL.revokeObjectURL(nextUrl); return; }
+      for (const img of card.querySelectorAll('.plate img,.small')) {
+        img.src = nextUrl;
+        img.alt = 'Logo phương án ' + code;
+      }
+      card.querySelector('.large').hidden = false;
+      card.querySelector('.empty').hidden = true;
+      card.querySelector('.sample').hidden = false;
+      status.textContent = '';
+      if (currentUrl) URL.revokeObjectURL(currentUrl);
+      currentUrl = nextUrl;
+    } catch {
+      URL.revokeObjectURL(nextUrl);
+      if (version === request) status.textContent = 'Chưa đọc được file này. Hãy chọn bản SVG hoặc PNG đã xuất.';
+    }
+  });
+  cards.append(card);
+}
+document.querySelector('#count').addEventListener('change', event => {
+  const count = Number(event.target.value);
+  cards.style.setProperty('--cols', count);
+  Array.from(cards.children).forEach((card,index) => card.hidden = index >= count);
+});
+document.querySelector('#bg').addEventListener('change', event => {
+  cards.classList.toggle('dark',event.target.value === 'dark');
+});
+document.querySelector('#print').addEventListener('click', () => window.print());
+</script>
+</html>
