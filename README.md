@@ -2,11 +2,37 @@
 
 Skill tiếng Việt giúp chủ thương hiệu và designer tạo logo, xây bộ nhận diện và **bàn giao thiết kế để AI khác làm tiếp**. Khi cần làm thêm một trang web, email, video hay bao bì, AI có logo gốc, mã màu, font, mẫu đã duyệt và brief để bám theo.
 
+## Thử ngay với Múi
+
+Múi đã có một bài đăng ra mắt soda quýt. Bạn có thể giao bộ nhận diện đó cho một chat mới để làm story mời khách ghé quầy thử vị.
+
+Nếu dùng Codex, chạy lệnh sau trong thư mục dự án để cài skill cho dự án đó.
+
+```sh
+npx --yes skills add https://github.com/nkl-elep/logo-brand-design --skill logo-brand-design --agent codex --copy -y
+```
+
+1. [Tải gói bàn giao Múi v1.2.0](https://github.com/nkl-elep/logo-brand-design/releases/download/v1.2.0/demo-mui.zip) và giải nén.
+2. Mở thư mục vừa giải nén trong một chat AI mới có thể đọc tệp và xuất ảnh. Trong gói có brief, logo gốc, font, thông số màu và bài đăng mẫu.
+3. Dán nguyên lời giao việc sau.
+
+> Dùng bộ bàn giao Múi làm story 1080 × 1920 cho quầy thử soda quýt. CTA là “Ghé thử vị”. Lấy nguyên logo từ master, đối chiếu màu và font với JSON, giữ nhịp chữ ngắn của bài đăng mẫu. Giao SVG sửa được và PNG. Chừa chỗ cho địa điểm vì brief chưa có.
+
+**Bài đăng gốc và story từ chat mới**
+
+![So sánh Múi cùng chiều cao. Bên trái là bài đăng ra mắt soda quýt 4:5, bên phải là story Ghé thử vị 9:16 do một chat mới làm từ cùng bộ bàn giao.](examples/mui/xem/so-sanh-story.jpg)
+
+Chat mới lấy logo, ảnh quýt và hai font từ gói v1.2.0. Trên khung dọc, lời mời **Ghé thử vị** nằm ngay trên dòng địa điểm để trống. Bạn có thể điền địa điểm trực tiếp trong SVG.
+
+[Mở bài đăng gốc (PNG)](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/examples/mui/ung-dung/bai-ra-mat.png) · [Mở story (PNG)](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/main/examples/mui/thu-ngay/story-ghe-thu-vi.png) · [Lấy story để sửa (SVG)](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/main/examples/mui/thu-ngay/story-ghe-thu-vi.svg)
+
+Bạn phải nhắc lại điều gì mà gói bàn giao lẽ ra nên nói rõ? [Gửi ảnh story và góp ý của bạn](https://github.com/nkl-elep/logo-brand-design/issues).
+
+## Cùng một skill, ba ngành khác nhau
+
 ![Ba thương hiệu mẫu: Sành với gốm men nâu, Múi với soda quýt và Tần với radio điện tử](docs/ba-nganh.jpg)
 
 **[Tải skill cho Codex](https://github.com/nkl-elep/logo-brand-design/releases/latest/download/logo-brand-design.zip)** · **[Đọc bản dùng với AI khác](Quy-trinh-logo-brand-cho-AI.md)** · **[Mở riêng ảnh ba thương hiệu](https://raw.githubusercontent.com/nkl-elep/logo-brand-design/v1.2.0/docs/ba-nganh.jpg)**
-
-## Cùng một skill, ba ngành khác nhau
 
 Mỗi liên kết **Xem guideline** bên dưới mở một trang GitHub có đủ ba trang cẩm nang dưới dạng ảnh và phần mô tả bằng chữ. Gói ZIP dành cho lúc bạn muốn lấy file gốc để chỉnh tiếp.
 
@@ -36,7 +62,7 @@ Sáu thanh tín hiệu, chữ hẹp và ảnh đĩa than đen trắng tạo nh�
 
 ## AI tiếp theo cần nhận gì?
 
-Ví dụ, Múi đã có nhãn chai và bài đăng. Để giao một AI khác làm **story mời thử vị**, giải nén bộ Múi, gửi cho AI thư mục dự án rồi dùng lời giao việc bên dưới. Nếu công cụ chỉ nhận từng tệp, gửi bản brief, JSON, logo đúng màu và ảnh mẫu trước; gửi thêm font và SVG khi cần xuất artwork.
+Mỗi tệp trong gói Múi trả lời một câu hỏi khi AI triển khai sang kênh mới.
 
 | Tài nguyên | Quyết định AI lấy từ đây |
 |---|---|
@@ -44,8 +70,6 @@ Ví dụ, Múi đã có nhãn chai và bài đăng. Để giao một AI khác l�
 | [Thông số thương hiệu](examples/mui/brand-tokens.json) | Mã màu, cặp chữ/nền, font, vai trò màu và cỡ logo tối thiểu |
 | [Logo gốc](examples/mui/logo/) và [font](examples/mui/fonts/) | Đúng hình học của lát quýt và đúng kiểu chữ tiếng Việt |
 | [Ứng dụng đã dựng](examples/mui/README.md) | Cách bố trí ảnh, mật độ chữ, lề và giọng nói khi sang kênh mới |
-
-> Dùng bộ bàn giao Múi làm story 1080 × 1920 cho quầy thử soda quýt. CTA là “Ghé thử vị”. Lấy nguyên logo từ master, đối chiếu màu và font với JSON, giữ nhịp chữ ngắn của bài đăng mẫu. Giao SVG sửa được và PNG. Chừa chỗ cho địa điểm vì brief chưa có.
 
 Khi làm cho thương hiệu của bạn, điền [mẫu bàn giao cho AI](logo-brand-design/assets/ban-giao-cho-ai.md) và [mẫu thông số JSON](logo-brand-design/assets/brand-tokens.json) bằng các quyết định riêng của dự án.
 
